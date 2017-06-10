@@ -1,6 +1,10 @@
-# Simple React Start Kit 2017
+# Sorting Price
 
-這個環境包可以讓你快速體驗 ReactJS 開發環境的便利，我們並沒有在裏面放入太多套件(例如 redux, karma)，希望可以讓你用最簡單的環境開始學習 React
+咖啡豆的範例網站，上面有咖啡豆的名稱跟價錢，點選按鈕可以改變咖啡豆的排序。
+
+![Imgur](http://i.imgur.com/6a1GJpT.gif)
+
+## [DEMO](https://reactmaker.github.io/react_challenge_sorting_price/#/)
 
 ## 特色
 
@@ -9,6 +13,7 @@
 * [webpack 2](https://github.com/webpack/webpack)
 * [babel stage-0 ](https://github.com/babel/babel)
 * [eslint](http://eslint.org)
+* [purecss](https://purecss.io/)
 
 ## 需求配置
 * node `^4.5.0`
@@ -19,8 +24,8 @@
 先確定好安裝了 node 4.5 以上的版本，接著就可以輸入以下指令
 
 ```bash
-$ git clone https://github.com/ReactMaker/simple_react_start_kit_2017
-$ cd simple_react_start_kit_2017
+$ git clone https://github.com/ReactMaker/react_challenge_sorting_price
+$ cd react_challenge_sorting_price
 $ npm install                   # Install project dependencies
 $ npm start                     # Compile and launch
 ```
